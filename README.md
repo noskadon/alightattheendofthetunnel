@@ -1,4 +1,4 @@
-A Light at the End of the Tunnel
+# A Light at the End of the Tunnel
 
 This project is a complete recreation of a previous website I built for a family member’s business. The current version was built on a WordPress template but the template was quite limiting. Rather than re-work the template’s HTML and CSS it makes sense to start again from scratch. The replacement site should not affect SEO and search engine indexing since it will be posted to the current host so the DNS is not affected.
 
@@ -9,3 +9,4 @@ The requirements from myself: • styling using the Bootstrap framework • imag
 Features that would be nice to have: • a translate button so the site is accessible to both speakers of English and Spanish • inactive content sections are hidden so that the page has a fade-out/fade-in effect rather than scrolling
 
 To prepare for this project I reviewed several websites in the same industry.
+# alightattheendofthetunnel
