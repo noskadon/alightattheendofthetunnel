@@ -1,47 +1,11 @@
-# Getting Started with Create React App and Redux
+A Light at the End of the Tunnel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+This project is a complete recreation of a previous website I built for a family member’s business. The current version was built on a WordPress template but the template was quite limiting. Rather than re-work the template’s HTML and CSS it makes sense to start again from scratch. The replacement site should not affect SEO and search engine indexing since it will be posted to the current host so the DNS is not affected.
 
-## Available Scripts
+The requirements for the site from the customer: • a calming color palette • relaxing imagery including beaches and floral scenes • a contact form • an alternate means of contacting the business ◦ a button that pops up the direct phone number ◦ the phone number is hidden with a JavaScript trick to prevent, or at least make it more difficult, to scrape from the site • descriptions of the services provided • a PayPal.me payment button
 
-In the project directory, you can run:
+The requirements from myself: • styling using the Bootstrap framework • images serving as buttons in the contact form ◦ the buttons would return a ‘checked’ or ‘unchecked’ status ◦ the buttons would replace radio buttons or checkboxes • a fixed-top menu with an overlapping image that disappears when scrolling down the page
 
-### `npm start`
+Features that would be nice to have: • a translate button so the site is accessible to both speakers of English and Spanish • inactive content sections are hidden so that the page has a fade-out/fade-in effect rather than scrolling
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# alightattheendofthetunnel
+To prepare for this project I reviewed several websites in the same industry.
