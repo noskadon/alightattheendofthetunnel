@@ -1,13 +1,26 @@
 import React from "react";
-import logo from "./logo.svg";
-import { Counter } from "./features/counter/Counter";
-import {Container, Navbar, NavbarBrand} from 'reactstrap';
+import { Routes, Route } from "react-router-dom";
+import ContactPage from "./pages/ContactPage";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import ServicesPage from "./pages/ServicesPage";
+import ServiceDetailPage from "./pages/ServiceDetailPage";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
 	return (
 		<div className="App">
-			A REACT TEMPLATE TO USE AS THE BASIS OF FUTURE PROJECTS
+			<Header />
+			<Routes>
+				<Route path="/" element={<HomePage />} />
+				<Route path="services" element={<ServicesPage />} />
+				<Route path="about" element={<AboutPage />} />
+				<Route path="contact" element={<ContactPage />} />
+				<Route path="directory/:campsiteId" element={<ServiceDetailPage />} />
+			</Routes>
+			<Footer />
 		</div>
 	);
 }
